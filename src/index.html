@@ -10,10 +10,18 @@
       integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
       crossorigin="anonymous"
     />
+    <link href="../node_modules/@pnotify/core/dist/PNotify.css" rel="stylesheet" type="text/css" />
+    <link href="../node_modules/@pnotify/mobile/dist/PNotifyMobile.css" rel="stylesheet" type="text/css" />
+    <link href="../node_modules/@pnotify/core/dist/BrightTheme.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="./css/styles.css"/>
   </head>
   <body>
-    
-    <script src="./index.js"></script>
+    <div class="input-container">
+      <label for="search-input">Enter the country:</label>
+      <input type="text" class="search-input" id="search-input" />
+    </div>
+    <div class="container grid"></div>
+
+    <script src="./index.js" type="module"></script>
   </body>
 </html>
